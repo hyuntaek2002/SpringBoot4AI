@@ -1,0 +1,9 @@
+spring:
+  jpa:
+
+    show-sql: true
+    profiles:
+      hibernate:
+        format_sql: true
+
+    defer-datasource-initialization: true
